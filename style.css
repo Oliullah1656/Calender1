@@ -1,0 +1,122 @@
+*{
+   padding: 0; 
+   box-sizing: border-box;
+   overflow-X: hidden;
+}
+.container{
+    
+    background: #262626;
+    width: 367px;
+    margin: auto;
+}
+.time h1,p{
+    margin: 0;
+    color: white;
+    margin-left: 20px;
+    
+}
+.time h1{
+    font-size: 50px;
+    font-weight: normal;
+}
+.time p{
+    color: #8FB8D8;
+}
+.time p:hover{
+    color: #808080;
+}
+.time span{
+    font-size: 30px;
+    color: #969696;
+}
+.border{
+    margin-top: 20px;
+    width: 367px;
+    height: 1px;
+    background: gray;
+}
+.calender-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.calender-top .text p{
+  display:inline-block ;
+  color: #e2dfdf;
+
+}
+.calender-top .text p:hover{
+    color: white;
+}
+.calender-top .icon{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.calender-top .icon .fas{
+    margin-right: 20px;
+    color: #e2dfdf;
+}
+.calender-top .icon .fas{
+ color: white;
+}
+
+
+
+th,td{
+    width: 50px;
+    height: 45px;
+    font-size: 16px;
+    font-weight: normal;
+    color: white;
+    text-align: center;
+}
+.special{
+   
+    border: 2px solid #0078D7;
+    background: black;
+}
+.special:hover{
+    border: 2px solid #66AEE7;
+}
+.special span{
+background:#0078D7;
+padding: 10px 17px;
+}
+td:hover{
+  border:2px solid gray; 
+  border-spacing: 0px;
+}
+.faksha{
+    color: rgb(161, 153, 153);
+}
+.calender-bottom {
+    color: white;
+    margin-left: 20px;
+    
+}
+.calender-bottom{
+    margin-bottom: 50px;
+}
+.calender-bottom h2{
+
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+
+.input{
+    margin-left: 0;
+    margin-top: 10px;
+    display: inline-block;
+    border: 2px solid #808080;
+    padding: 8px 150px 8px 10px;
+    color:#a8a4a4;
+}
+.input:hover{
+    background: black;
+}
+.calender-bottom h3{
+
+    font-weight: normal;
+    margin-bottom: px;
+}
